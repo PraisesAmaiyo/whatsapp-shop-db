@@ -1,7 +1,7 @@
 {
   "name": "whatsapp-shop-db",
   "version": "1.0.0",
-  "main": "index.mjs",
+  "main": "index.js",
   "type": "module",
   "repository": "https://github.com/PraisesAmaiyo/whatsapp-shop-db.git",
   "author": "Amaiyo Praises <amaiyo.praises@gmail.com>",

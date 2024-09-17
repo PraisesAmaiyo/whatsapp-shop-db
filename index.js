@@ -10,8 +10,12 @@
 
 // server.listen(port);
 
-import jsonServer from 'json-server'; // importing json-server
-import cors from 'cors'; // importing cors for cross-origin requests
+// import jsonServer from 'json-server'; // importing json-server
+// import cors from 'cors'; // importing cors for cross-origin requests
+
+const jsonServer = require('json-server');
+const cors = require('cors');
+
 const server = jsonServer.create();
 const router = jsonServer.router('db.json'); // point to your db.json file
 const middlewares = jsonServer.defaults();
