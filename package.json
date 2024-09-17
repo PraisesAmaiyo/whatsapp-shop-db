@@ -1,17 +1,16 @@
 {
   "name": "whatsapp-shop-db",
   "version": "1.0.0",
-  "description": "This db.json file contains mock data for an e-commerce project, including information on featured categories, trending products, new arrivals, similar items, and frequently viewed items. The data is structured for use in development and testing environments.",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "main": "index.mjs",
+  "type": "module",
+  "repository": "https://github.com/PraisesAmaiyo/whatsapp-shop-db.git",
+  "author": "Amaiyo Praises <amaiyo.praises@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
     "json-server": "^1.0.0-beta.2"
+  },
+  "scripts": {
+    "start": "json-server --watch db.json --port 5000"
   }
 }
